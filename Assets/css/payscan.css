@@ -1,0 +1,432 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* styling header */
+#pay-head{
+    width: 100%;
+    height: 80px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(34, 33, 33, 0.863);
+}
+#pay-scan-logo{
+    width: 7%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 50px;
+}
+#logoo{
+    width: 75px;
+    height: 35px;
+}
+#navv{
+    width:40%;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    column-gap: 40px;
+    margin-left: 431px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight:600;
+    color: #000505;
+    letter-spacing:1px;
+}
+#navv,a{
+    color: rgb(19, 16, 16);
+    text-decoration: none;
+}
+#navv,a:hover{
+    color: #0C8486;
+}
+#baby-but{
+    width:120px;
+    height: 38px;
+    margin-left:50px;
+    border-radius: 7px;
+    background-color: #0C8486;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight:500;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000505;    
+}
+#baby-but:hover{
+    color: #000505;
+    font-size: 1.2rem;
+}
+#nav-res{
+    z-index:1;
+    width:20%;
+    height:200px;   
+    margin-top:280px;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight:600;
+    line-height: 30px;
+    color: #000505;
+    letter-spacing:1px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #DDEFEF;
+    display: none;
+}
+.fa-bars{
+    visibility: hidden;
+    font-size: 1.3rem;
+    float: right;
+    display:none;
+}
+.fa-xmark{
+    visibility: hidden;
+    /* display:none; */
+}
+/* styling pay-sec-1 */
+#pay-sec-1{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(#0C8486,black);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#words{
+    width: 44%;
+    height:500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#payer-head1{
+    color: white;
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+#payer-para1{
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    opacity: .9;
+}
+
+#phone-images{
+    width: 45%;
+    height:650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+#payer-phone{
+    width:300px;
+    height: 600px;
+}
+#payer-phone-2{
+    width: 250px;
+    height: 500px;
+    transform: translateX(-51px);
+    margin-top: 51px;
+}
+#inn-div{
+    width: 75%;
+    height: 75px;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#trapz1{
+    width: 46%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    background-color:white;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(black, white);
+}
+#trapz1:hover{
+    background-color: #0C8486;
+    color: white;
+    border: 2px solid black;
+}
+#trapz2{
+    width: 46%;
+    height: 65px;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #0B7476;
+}
+#trapz2:hover{
+    background-color:black;
+    color: white;
+    border: 2px solid #0C8486;
+}
+/* styling pay-sec-2 */
+#pay-sec-2{
+    width: 100%;
+    height: 700px;
+    background-color: #DDEFEF;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#words-2{
+    width: 40%;
+    height:300px;
+    margin-left:50px;
+}
+.trades{
+    color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+#trade-img{
+    width: 45%;
+    height:550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    margin-left: 50px;
+}
+#trapz3{
+    width: 35%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: black;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, rgba(0, 0, 0, 0.089),#0B7476);
+}
+#trapz3:hover{
+    background-color: #0C8486;
+    color: white;
+    border: 2px solid black;
+}
+.chart{
+    width: 230px;
+    height: 530px;
+}
+.chart-2{
+    width: 230px;
+    height: 530px;
+}
+/* styling pay-sec-3*/
+#pay-sec-3{
+    width: 100%;
+    height: 800px;
+    background-color:whitesmoke;
+}
+#cont-words{
+    width: 99%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#usedd{
+    width: 30%;
+    height: 100px;
+    font-family:sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#cont-img{
+    width: 99%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#continents{
+    width:90%;
+    height:560px;
+}
+/* sect 4 */
+#pay-sec-4{
+    width: 100%;
+    height: 1050px;
+    background-image:linear-gradient(#0C8486,black);
+}
+#papa-cont{
+    width: 99%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+#words4{
+    width: 50%;
+    height: 400px;
+    margin-left: 50px;
+
+}
+#reward{
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+.rewardss{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    opacity: .9;
+}
+#icon-mini-box{
+    width: 11%;
+    height: 30px;
+    margin-top:10px;
+    color:white;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    opacity: .9;
+    border-radius: 24px;
+}
+#icon-mini-box:hover{
+    background-color: azure;
+    color: #060707;
+    border: 2px solid black;
+}
+#money-img{
+    width: 40%;
+    height: 400px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+#moneyy{
+    width: 170px;
+    height: 180px;
+    margin-top: 135px;
+    transform: translateX(80px);
+}
+#phoneE{
+    width: 350px;
+    height: 380px;
+}
+#company-logos{
+    width: 80%;
+    height:250px;
+    background-color: #000505;
+    color: white;
+    margin-top: 50px;
+    margin-left: 9%;
+    border-radius:20px ;
+}
+
+.small-image{
+    width: 110px;
+    height: 34px;
+}
+#trusted{
+    font-size: 1.5rem;
+    position: relative;
+    top: 20px;
+    left:50px;
+}
+.logosss{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 70px;
+    margin-top: 49px;
+}
+.logosss-2{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 70px;
+    margin-top: 49px;
+}
+/* footer */
+#foot-baby{
+    width: 100%;
+    height: 350px;
+    background-color:#060707;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    column-gap: 140px;
+}
+.foot-div{
+    margin-top: 40px;
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+.footie{
+    font-size: 1.5rem;
+    font-weight: 100;
+    opacity: .9;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.932);
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#foot-iconns{
+    font-size: 2.3rem;
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 30px;
+}
+.iconnss:hover{
+    color: #0C8486;
+}
+.iconnsss:hover{
+    color: #0C8486;
+}
+.iconnssss:hover{
+    color: #0C8486;
+}
+#playstore{
+    width: 200px;
+    height: 100px;
+}
+
+.my-list{
+    list-style-type: none;
+    font-size: 1rem;
+    line-height: 40px;
+    opacity: .9;
+}
+#lasttt{
+    font-size: 1rem;
+    opacity: .9;
+}
+
+
