@@ -287,6 +287,7 @@
     height: 450px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #words4{
     width: 50%;
@@ -363,12 +364,16 @@
 }
 .logosss{
     display: flex;
+    align-items: center;
+    justify-content: center;
     column-gap: 50px;
     margin-left: 70px;
     margin-top: 49px;
 }
 .logosss-2{
     display: flex;
+    align-items: center;
+    justify-content: center;
     column-gap: 50px;
     margin-left: 70px;
     margin-top: 49px;
@@ -376,55 +381,50 @@
 /* footer */
 #foot-baby{
     width: 100%;
-    height: 350px;
+    height: 200px;
     background-color:#060707;
     color: white;
     display: flex;
     align-items: baseline;
-    column-gap: 140px;
+    justify-content:space-around;
 }
 .foot-div{
-    margin-top: 40px;
-    font-family: sans-serif;
-    margin-left: 35px;
+    width: 20%;
+    height: 200px;
+    font-family:sans-serif;
 }
 .footie{
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:3px;
     opacity: .9;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.932);
     text-decoration: none;
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: center;
+
 }
 #foot-iconns{
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     display: flex;
-    column-gap: 40px;
-    margin-bottom: 30px;
+    column-gap: 20px;
+    margin-top: 20px;
+    margin-bottom:30px;
 }
 .iconnss:hover{
     color: #0C8486;
 }
-.iconnsss:hover{
-    color: #0C8486;
-}
-.iconnssss:hover{
-    color: #0C8486;
-}
 #playstore{
-    width: 200px;
-    height: 100px;
+    width: 130px;
+    height:80px;
 }
-
 .my-list{
     list-style-type: none;
     font-size: 1rem;
-    line-height: 40px;
+    line-height:40px;
     opacity: .9;
 }
 #lasttt{
+    width: 90%;
+    margin-top: 10px;
     font-size: 1rem;
     opacity: .9;
 }

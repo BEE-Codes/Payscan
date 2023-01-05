@@ -1,4 +1,4 @@
-@media only screen and (max-width:320px){
+@media only screen and (min-width:320px) and (max-width:390px){
     #navv{
         display:none;
     }
@@ -102,7 +102,7 @@
         height: 200px;
     }
     #continents{
-        width:100%;
+        width:99%;
         height:200px;
     }
     #pay-sec-4{
@@ -112,7 +112,7 @@
         display: block;
     }
     #words4{
-        width: 100%;
+        width: 99%;
         height: 110px;
         margin-left:0px;
     }
@@ -140,11 +140,11 @@
     }
     #phoneE{
         margin-left:-40px;
-        width:240px;
+        width:230px;
         height:290px;
     }
     #company-logos{
-        width: 100%;
+        width: 99%;
         margin-left:0%;
         background-color: transparent;
         margin-top: 70px;
@@ -170,29 +170,550 @@
         margin-top: 10px;
     }
     #foot-baby{
-        height:300px;
-        column-gap:0px;
-    }
-    .foot-div{
-        width: 50%;
-        margin-left:0px;
+        height: 100px;
     }
     .footie{
-        font-size:0.7rem;
+        letter-spacing:0px;
+        font-size:0.45rem;
     }
-    #playstore{
-        width: 100px;
-        height:50px;
+    .foot-div{
+        height: 100px;
     }
     #foot-iconns{
-        font-size:1rem;
-        column-gap: 10px;
+        margin-top:5px;
+        font-size:.9rem;
+        column-gap:10px;
+    }
+    #playstore{
+        width: 60px;
+        height:40px;
+        margin-top:-20px;
     }
     .my-list{
         font-size:.5rem;
-        line-height:20px;
+        line-height:18px;
     }
     #lasttt{
+        margin-top: 5px;
+        font-size:.5rem;
+    }
+}
+@media only screen and (min-width:391px) and (max-width:468px){
+
+    #navv{
+        display:none;
+    }
+    #baby-but{
+        display: none;
+    }
+    .fa-bars{
+        visibility: visible;
+        margin-left: 70%;
+    }
+    #pay-sec-1{
+        display:block;
+    }
+    #words{
+        position: relative;
+        top: 40px;
+        width: 100%;
+        height:120px;
+        margin-top:0px;
+        margin-left: 0px;
+    }
+    #payer-head1{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    #payer-para1{
+        line-height:15px ;
+        font-size: .7rem;
+    }
+    #inn-div{
+        width: 98%;
+        height:60px;
+        margin-top: 0px;
+    }
+    #trapz1,#trapz2,#trapz3{
+        height: 40px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    #phone-images{
+        width: 99%;
+        height:500px;
+        margin-left:0px;
+        margin-top: 70px;
+    }
+    #payer-phone{
+        width:270px;
+        height: 500px;
+        margin-left:10px;
+    }
+    #payer-phone-2{
+        display: none;
+    }
+    #pay-sec-2{
+        display: block;
+        /* flex-direction: column-reverse;  */
+    }
+    #words-2{
+        width: 100%;
+        height: 115px;
+        position: relative;
+        top: 10px;
+        margin-left:0px;
+    }
+    .trades{
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    #trade-img{
+        width: 100%;
+        height:570px;
+        margin-left:0px;
+    }
+    #trapz3{
+    margin-left:35%;
+}
+    .chart{
+        width: 250px;
+        height: 530px;
+    }
+    .chart-2{
+        display: none;
+    }
+    #pay-sec-3{
+        height: 400px;
+    }
+    #cont-words{
+        width: 99%; 
+        height: 100px;
+    }
+    #usedd{
+        width:90%;
+        font-size: 1.4rem;
+        margin-top: 30px;
+        text-transform: capitalize;
+    }
+    #cont-img{
+        height: 250px;
+    }
+    #continents{
+        width:99%;
+        height:250px;
+    }
+    #pay-sec-4{
+        height: 800px;
+    }
+    #papa-cont{
+        display: block;
+    }
+    #words4{
+        width: 100%;
+        height: 110px;
+        margin-left:0px;
+    }
+    #reward{
+        font-size:1.7rem;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .rewardss{
+        font-size: .9rem;
+
+    }
+    #icon-mini-box{
+        width: 20%;
+        font-size:1.2rem;
+    }
+    #money-img{
+        height: 335px;
+        width: 100%;
+        margin-left:0px;
+    }
+    #moneyy{
+        margin-top: 120px;
+        width:105px;
+        height:125px;
+        transform: translateX(85px);
+    }
+    #phoneE{
+        margin-left: 30px;
+        width:240px;
+        height:290px;
+    }
+    #company-logos{
+        width: 100%;
+        margin-left:0%;
+        background-color: transparent;
+        margin-top: 30px;
+    }
+    #trusted{
+        font-size: 1.3rem;
+        top: 0px;
+        left:15px;
+    }
+    .logosss{
+        flex-direction:column;
+        margin-left:60px;
+        margin-top:0px;
+    }
+    .logosss-2{
+        display:none;
+    }
+    .small-image{
+        width:35%;
+        height:27px;
+    }
+    .small-image1{
+        margin-top: 10px;
+    }
+    #foot-baby{
+        height: 100px;
+    }
+    .footie{
+        letter-spacing:0px;
+        font-size:0.45rem;
+    }
+    .foot-div{
+        height: 100px;
+    }
+    #foot-iconns{
+        margin-top:5px;
+        font-size:.9rem;
+        column-gap:10px;
+    }
+    #playstore{
+        width: 70px;
+        height:50px;
+        margin-top:-20px;
+    }
+    .my-list{
+        font-size:.5rem;
+        line-height:18px;
+    }
+    #lasttt{
+        margin-top: 5px;
+        font-size:.5rem;
+    }
+}
+@media only screen and (min-width:469px) and (max-width:640px){
+    #navv{
+        display:none;
+    }
+    #baby-but{
+        display: none;
+    }
+    .fa-bars{
+        visibility: visible;
+        margin-left: 70%;
+    }
+    #words{
+        margin-left:0px;
+    }
+    #trapz1, #trapz2,#trapz3{
+        font-size:.7rem;
+        width:45%;
+        height:25px;
+    }
+    #payer-head1{
+        font-size: 1.5rem;
+    }
+    #payer-para1{
+        line-height: 15px;
+        font-size: .7rem;
+    }
+    #phone-images{
+        width: 50%;
+        margin-left:10px ;
+    }
+    #payer-phone{
+        margin-left:5px;
+        margin-top: -29px;
+        width:250px;
+        height:500px;
+    }
+    #payer-phone-2{
+        display: none;
+    }
+    #pay-sec-2{
+        flex-direction: row-reverse;
+        height:600px;
+    }
+    #words-2{
+        margin-left:10px;
+    }
+    .trades{
+        font-size:1rem;
+    }
+    #trade-img{
+        width: 50%;
+        margin-left:-20px;
+    }
+    .chart{
+        width: 230px;
+        height: 500px;
+    }
+    .chart-2{
+        display: none;
+    }
+    #pay-sec-3{
+        height:400px;
+    }
+    #usedd{
+        width: 80%;
+        font-size: 1.4rem;
+    }
+    #cont-img{
+        width: 90%;
+        height: 200px;
+    }
+    #continents{
+        width:70%;
+        height:200px;
+    }
+    #pay-sec-4{
+        height: 800px;
+    }
+    #words4{
+        margin-left:0px;
+    }
+    #reward{
+        margin-bottom:10px;
+        font-size:1.4rem;
+        font-weight: 700;
+    }
+    .rewardss{
+        font-size: .8rem;
+    }
+    #icon-mini-box{
+        width: 30%;
+        height: 20px;
+        font-size: .9rem;
+    }
+    #money-img{
+        width:50%;
+        margin-left: 0px;
+    }
+    #moneyy{
+        width: 90px;
+        height: 100px;
+        z-index: 1;
+        margin-top:50px;
+        transform: translateX(0px);
+    }
+    #phoneE{
+        transform: translateX(-30px);
+        width:170px;
+        height: 210px;
+    }
+    #company-logos{
+        width: 100%;
+        height:180px;
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+    .small-image{
+        width: 80px;
+        height: 20px;
+    }
+    .logosss{
+        column-gap:13px;
+        margin-left:0px;
+    }
+    .logosss-2{
+        margin-top:20px;
+        column-gap:13px;
+        margin-left:0px;
+    }
+    #foot-baby{
+        height: 100px;
+    }
+    .footie{
+        letter-spacing:0px;
+        font-size:0.45rem;
+    }
+    .foot-div{
+        height: 100px;
+    }
+    #foot-iconns{
+        margin-top:5px;
+        font-size:.9rem;
+        column-gap:10px;
+    }
+    #playstore{
+        width: 70px;
+        height:50px;
+        margin-top:-20px;
+    }
+    .my-list{
+        font-size:.5rem;
+        line-height:18px;
+    }
+    #lasttt{
+        margin-top: 5px;
+        font-size:.5rem;
+    }
+}
+@media only screen and (min-width:641px) and (max-width:992px){
+    #navv{
+        display:none;
+    }
+    #baby-but{
+        display: none;
+    }
+    .fa-bars{
+        visibility: visible;
+        margin-left: 70%;
+    }
+    #words{
+        margin-left:0px;
+    }
+    #trapz1, #trapz2,#trapz3{
+        font-size:.7rem;
+        width:45%;
+        height:25px;
+    }
+    #payer-head1{
+        font-size: 1.5rem;
+    }
+    #payer-para1{
+        line-height: 15px;
+        font-size: .7rem;
+    }
+    #phone-images{
+        width: 50%;
+        margin-left:10px ;
+    }
+    #payer-phone{
+        margin-left:5px;
+        margin-top: -29px;
+        width:250px;
+        height:500px;
+    }
+    #payer-phone-2{
+        display: none;
+    }
+    #pay-sec-2{
+        flex-direction: row-reverse;
+        height:600px;
+    }
+    #words-2{
+        margin-left:10px;
+    }
+    .trades{
+        font-size:1rem;
+    }
+    #trade-img{
+        width: 50%;
+        margin-left:-20px;
+    }
+    .chart{
+        width: 230px;
+        height: 500px;
+    }
+    .chart-2{
+        display: none;
+    }
+    #pay-sec-3{
+        height:400px;
+    }
+    #usedd{
+        width: 80%;
+        font-size: 1.4rem;
+    }
+    #cont-img{
+        width: 90%;
+        height: 200px;
+    }
+    #continents{
+        width:70%;
+        height:200px;
+    }
+    #pay-sec-4{
+        height: 800px;
+    }
+    #words4{
+        margin-left:0px;
+    }
+    #reward{
+        margin-bottom:10px;
+        font-size:1.4rem;
+        font-weight: 700;
+    }
+    .rewardss{
+        font-size: .8rem;
+    }
+    #icon-mini-box{
+        width: 30%;
+        height: 20px;
+        font-size: .9rem;
+    }
+    #money-img{
+        width:50%;
+        margin-left: 0px;
+    }
+    #moneyy{
+        width: 90px;
+        height: 100px;
+        z-index: 1;
+        margin-top:50px;
+        transform: translateX(0px);
+    }
+    #phoneE{
+        transform: translateX(-30px);
+        width:170px;
+        height: 210px;
+    }
+    #company-logos{
+        width: 100%;
+        height:180px;
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+    .small-image{
+        width: 80px;
+        height: 20px;
+    }
+    .logosss{
+        column-gap:13px;
+        margin-left:0px;
+    }
+    .logosss-2{
+        margin-top:20px;
+        column-gap:13px;
+        margin-left:0px;
+    }
+    #foot-baby{
+        height: 100px;
+    }
+    .footie{
+        letter-spacing:0px;
+        font-size:0.45rem;
+    }
+    .foot-div{
+        height: 100px;
+    }
+    #foot-iconns{
+        margin-top:5px;
+        font-size:.9rem;
+        column-gap:10px;
+    }
+    #playstore{
+        width: 70px;
+        height:50px;
+        margin-top:-20px;
+    }
+    .my-list{
+        font-size:.5rem;
+        line-height:18px;
+    }
+    #lasttt{
+        margin-top: 5px;
         font-size:.5rem;
     }
 }
